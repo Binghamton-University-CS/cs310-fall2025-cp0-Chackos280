@@ -1,0 +1,15 @@
+#include "Animal.h"
+#ifndef AnimalsInZoo_
+#define AnimalsInZoo_
+
+class AnimalsInZoo {
+ private:
+  unsigned int numAnimals;
+  Animal a;
+ public:
+  AnimalsInZoo(const Animal& a);
+  AnimalsInZoo();
+  void display() const;
+
+};
+#endif
